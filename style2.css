@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Medula+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+.banner{
+    font-family: 'Medula One', cursive;;
+font-size: 150px ;
+
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.encabezado{
+  font-size: 25px;
+}
+.col{
+  background-color: rgb(255, 255, 255);
+}
+.lezhin img{
+  width: 3cm;
+  height: 5cm;
+}
+.bili img {
+   width: 3cm;
+height: 5cm;
+background-color: aqua;
+}
+.marvel img{
+  width: 3cm;
+  height: 5cm;
+}
+.producto h3 {
+  margin-top: 10px;
+}
+
+.producto p {
+  font-size: 14px;
+}
+
+.producto span {
+  font-weight: bold;
+  color: #007bff;
+}
+footer{
+  background-color: #52a6ff;
+  color: azure;
+}

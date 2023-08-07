@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Medula+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+.banner{
+    font-family: 'Medula One', cursive;;
+font-size: 150px ;
+}
+
+
+.open{
+    font-family:'Open Sans', sans-serif;
+}
+
+.imagen-estilizada{
+    border-radius: 50%;
+    width: 7cm;
+    height: 7cm;
+}
+.col{
+    font-size: 20px;
+   
+}
+.nosotros{ 
+    font-size: 20px;
+    text-align: center;
+  }
+
+
+  @media (max-width: 768px) {
+    .nosotros {
+      font-size: 16px;
+    }
+  }
+  .contenedor {
+    margin: 20px; 
+  }
+
+  .elemento {
+    padding: 10px; 
+
+
+}
+.encabezado{
+font-size: 59px;
+font-family: 'Open Sans', sans-serif;;
+
+}
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.producto {
+  flex: 0 0 calc(33.33% - 20px); 
+  margin-bottom: 20px;
+  padding: 2px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.producto img {
+  max-width: 100%;
+  height: auto;
+}
+
+.producto h3 {
+  margin-top: 10px;
+}
+
+.producto p {
+  font-size: 14px;
+}
+
+.producto span {
+  font-weight: bold;
+  color: #ffffff;
+}
+.catalogo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px;
+}
+
+.producto {
+  padding: 50px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.producto img {
+  max-width: 100%;
+  height: auto;
+}
+
+.producto h3 {
+  margin-top: 10px;
+}
+
+.producto p {
+  font-size: 14px;
+}
+
+.producto span {
+  font-weight: bold;
+  color: #007bff;
+}
+.imagen-producto{
+  background-color: blue;
+  height: 5cm;
+  height: 7cm;
+}
+.secuencia-container {
+  display: flex;
+  justify-content: center;
+}
+
+.producto {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.producto img {
+  width: 200px;
+  height: 250px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.detalle-producto {
+  display: none;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.detalle-producto h2 {
+  margin-bottom: 10px;
+}
+
+.detalle-producto p {
+  font-size: 14px;
+}
+
+.detalle-producto span {
+  font-weight: bold;
+  color: #007bff;
+}
+.logo img{
+  width: 80px;
+  height: 100px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.lezhin img{
+  width: 5cm;
+  height: 5cm;
+}
+.bili img {
+   width: 5cm;
+height: 5cm;
+background-color: aqua;
+}
+.marvel img{
+  width: 10cm;
+  height: 5cm;
+}
+.contantofont{
+  font-size: 50px;
+}
+
+footer{
+  background-color: #52a6ff;
+  color: azure;
+}
